@@ -91,7 +91,7 @@ public class Main {
     }
 
     private static void writeScoresToFile(List<Integer> scores) throws IOException {
-        File file = new File("src/com/github/papayankey/scores.txt");
+        File file = new File("functional-interfaces/scores.txt");
 
         if (file.exists()) {
             boolean deletedFile = file.delete();
